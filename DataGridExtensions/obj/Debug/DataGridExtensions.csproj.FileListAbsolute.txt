@@ -1,0 +1,13 @@
+F:\VSProject\FilterDataGridColumns\DataGridExtensions\obj\Debug\DataGridExtensions.Properties.Resources.resources
+F:\VSProject\FilterDataGridColumns\DataGridExtensions\obj\Debug\DataGridExtensions.csproj.GenerateResource.cache
+F:\VSProject\FilterDataGridColumns\DataGridExtensions\obj\Debug\DataGridExtensions.csproj.CoreCompileInputs.cache
+F:\VSProject\FilterDataGridColumns\DataGridExtensions\obj\Debug\GeneratedInternalTypeHelper.g.cs
+F:\VSProject\FilterDataGridColumns\DataGridExtensions\obj\Debug\DataGridExtensions_MarkupCompile.cache
+F:\VSProject\FilterDataGridColumns\DataGridExtensions\obj\Debug\DataGridExtensions_MarkupCompile.lref
+F:\VSProject\FilterDataGridColumns\DataGridExtensions\bin\Debug\DataGridExtensions.dll
+F:\VSProject\FilterDataGridColumns\DataGridExtensions\bin\Debug\DataGridExtensions.pdb
+F:\VSProject\FilterDataGridColumns\DataGridExtensions\obj\Debug\Themes\Generic.baml
+F:\VSProject\FilterDataGridColumns\DataGridExtensions\obj\Debug\DataGridExtensions.g.resources
+F:\VSProject\FilterDataGridColumns\DataGridExtensions\obj\Debug\DataGridExtensions.dll
+F:\VSProject\FilterDataGridColumns\DataGridExtensions\obj\Debug\DataGridExtensions.pdb
+F:\VSProject\FilterDataGridColumns\DataGridExtensions\obj\Debug\DataGridExtensions.csprojAssemblyReference.cache
