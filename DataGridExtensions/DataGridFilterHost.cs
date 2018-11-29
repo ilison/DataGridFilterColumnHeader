@@ -19,7 +19,7 @@ namespace DataGridExtensions
         private readonly List<DataGridFilterColumnControl> _filterColumnControls = new List<DataGridFilterColumnControl>();
 
         //控件是否显示
-        private bool _isFilteringVisibility;
+        internal bool _isFilteringVisibility { set; get; }
 
         public DataGridFilterHost(DataGrid dataGrid)
         {
@@ -45,7 +45,7 @@ namespace DataGridExtensions
         //添加个新列
         internal void AddColumn(DataGridFilterColumnControl dataGridFilterColumn)
         {
-            dataGridFilterColumn.Visibility = _isFilteringVisibility?Visibility.Visible:Visibility.Hidden;
+            //dataGridFilterColumn.Visibility = _isFilteringVisibility?Visibility.Visible:Visibility.Hidden;
             _filterColumnControls.Add(dataGridFilterColumn);
         }
 
@@ -55,7 +55,8 @@ namespace DataGridExtensions
             _isFilteringVisibility = value;
             _filterColumnControls.ForEach(column => column.Visibility = value ? Visibility.Visible : Visibility.Hidden);
             //筛选DataGrid
-            Filter();
+            if(_filterColumnControls?.Any()==true)
+                    Filter();
         }
 
         internal void Filter()

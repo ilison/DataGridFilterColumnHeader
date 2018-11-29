@@ -11,24 +11,24 @@ namespace DataGridExtensions
     {
         #region Filtered Attached
         
-        public static bool GetFiltered(this DataGrid obj)
+        public static bool? GetFiltered(this DataGrid obj)
         {
             return (bool)obj.GetValue(FilteredProperty);
         }
 
-        public static void SetFiltered(this DataGrid obj, bool value)
+        public static void SetFiltered(this DataGrid obj, bool? value)
         {
             obj.SetValue(FilteredProperty, value);
         }
 
         // Using a DependencyProperty as the backing store for Filtered.  This enables animation, styling, binding, etc...
         public static readonly DependencyProperty FilteredProperty =
-            DependencyProperty.RegisterAttached("Filtered", typeof(bool), typeof(DataGridFilter), new PropertyMetadata(false,OnFilteredChanged));
+            DependencyProperty.RegisterAttached("Filtered", typeof(bool?), typeof(DataGridFilter), new PropertyMetadata(null,OnFilteredChanged));
 
         public static void OnFilteredChanged(DependencyObject sender, DependencyPropertyChangedEventArgs args)
         {
             var datagrid = sender as DataGrid;
-            datagrid?.GetFilter()?.Enable(true.Equals(args.NewValue));
+            datagrid?.GetFilter()?.Enable(true.Equals(args.NewValue==null?false: args.NewValue));
         }
         #endregion
 

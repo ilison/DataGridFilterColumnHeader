@@ -10,7 +10,7 @@
         Title="MainWindow" Height="450" Width="800">
     <Grid>
         <DockPanel>
-            <CheckBox x:Name="_chebox_" DockPanel.Dock="Top" IsChecked="True">过滤</CheckBox>
+            <CheckBox x:Name="_chebox_" DockPanel.Dock="Top" IsChecked="False">过滤</CheckBox>
             <DataGrid dgx:DataGridFilter.Filtered="{Binding ElementName=_chebox_,Path=IsChecked,Mode=OneWay}" x:Name="_datagrid_"
                     
                       ></DataGrid>

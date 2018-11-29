@@ -64,7 +64,7 @@ namespace DataGridExtensions
                 // Find our host and attach ourself.
                 FilterHost = DataGrid.GetFilter();
             }
-            FilterHost.AddColumn(this);
+          
 
             Template = _emptyControlTemplate;
 
@@ -93,11 +93,14 @@ namespace DataGridExtensions
                 //  CheckBox c = tem.c("_chebox_",new Grid()) as CheckBox;
                 // BindingOperations.SetBinding(c, CheckBox.IsCheckedProperty, new Binding(nameof(FilterValues)) { Source = this });
                 this.Template = tem;
+                this.Visibility = FilterHost._isFilteringVisibility ? Visibility.Visible : Visibility.Hidden;
             }
             else
             {
                 this.Template = this.FindResource("DataGridTextColumn") as ControlTemplate;
+                this.Visibility = FilterHost._isFilteringVisibility ? Visibility.Visible : Visibility.Hidden;
             }
+            FilterHost.AddColumn(this);
         }
 
         public object Filter

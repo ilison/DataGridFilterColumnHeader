@@ -11,3 +11,16 @@ F:\VSProject\FilterDataGridColumns\DataGridExtensions\obj\Debug\DataGridExtensio
 F:\VSProject\FilterDataGridColumns\DataGridExtensions\obj\Debug\DataGridExtensions.dll
 F:\VSProject\FilterDataGridColumns\DataGridExtensions\obj\Debug\DataGridExtensions.pdb
 F:\VSProject\FilterDataGridColumns\DataGridExtensions\obj\Debug\DataGridExtensions.csprojAssemblyReference.cache
+F:\VSProject\WPF\FilterDataGridColumns\DataGridExtensions\bin\Debug\DataGridExtensions.dll
+F:\VSProject\WPF\FilterDataGridColumns\DataGridExtensions\bin\Debug\DataGridExtensions.pdb
+F:\VSProject\WPF\FilterDataGridColumns\DataGridExtensions\obj\Debug\DataGridExtensions.csprojAssemblyReference.cache
+F:\VSProject\WPF\FilterDataGridColumns\DataGridExtensions\obj\Debug\GeneratedInternalTypeHelper.g.cs
+F:\VSProject\WPF\FilterDataGridColumns\DataGridExtensions\obj\Debug\DataGridExtensions_MarkupCompile.cache
+F:\VSProject\WPF\FilterDataGridColumns\DataGridExtensions\obj\Debug\DataGridExtensions_MarkupCompile.lref
+F:\VSProject\WPF\FilterDataGridColumns\DataGridExtensions\obj\Debug\Themes\Generic.baml
+F:\VSProject\WPF\FilterDataGridColumns\DataGridExtensions\obj\Debug\DataGridExtensions.g.resources
+F:\VSProject\WPF\FilterDataGridColumns\DataGridExtensions\obj\Debug\DataGridExtensions.Properties.Resources.resources
+F:\VSProject\WPF\FilterDataGridColumns\DataGridExtensions\obj\Debug\DataGridExtensions.csproj.GenerateResource.cache
+F:\VSProject\WPF\FilterDataGridColumns\DataGridExtensions\obj\Debug\DataGridExtensions.csproj.CoreCompileInputs.cache
+F:\VSProject\WPF\FilterDataGridColumns\DataGridExtensions\obj\Debug\DataGridExtensions.dll
+F:\VSProject\WPF\FilterDataGridColumns\DataGridExtensions\obj\Debug\DataGridExtensions.pdb
