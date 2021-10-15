@@ -14,7 +14,7 @@ WPF DataGrid Columns Filter
 
 :muscle::muscle:
 
-:zap: ColumnFilterControl
+:zap: FilterColumnsControl
 ------
-![](https://github.com/lison999/TY_Code/blob/main/README/FilterColumns.gif)
+![]https://github.com/lison999/README/blob/master/FilterColumns.gif)
 
