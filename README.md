@@ -16,5 +16,5 @@ WPF DataGrid Columns Filter
 
 :zap: ColumnFilterControl
 ------
-![](https://github.com/ilison/TY_Code/blob/main/Readme/FilterColumns.gif)
+![](https://github.com/lison999/TY_Code/blob/main/README/FilterColumns.gif)
 
